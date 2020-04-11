@@ -1,2 +1,2 @@
 class Employee:
-pass
+    pass

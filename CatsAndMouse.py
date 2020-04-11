@@ -41,11 +41,30 @@
 # 2
 # 1 2 3
 # 1 3 2
+# 2 5 4
 
 # Sample Output 0
 
 # Cat B
 # Mouse C
+# Cat B
 
+arr = [2, 5, 4]
+catA = x = arr[0]
+catB = y = arr[1]
+mouse = z = arr[2]
+
+# def catAndMouse(x, y, z):
+
+r1 = abs(x - z)
+r2 = abs(y - z)
+print(r1)
+print(r2)
+if r1 == r2:
+    print('Mouse C')
+elif r1 > r2:
+    print('Cat B')
+else:
+    print('Cat A')
 
 
